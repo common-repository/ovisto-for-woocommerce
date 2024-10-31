@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'OvWoo';
+    src: url('../fonts/OvWoo.eot');
+    src: url('../fonts/OvWoo.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/OvWoo.woff') format('woff'),
+    url('../fonts/OvWoo.ttf') format('truetype'),
+    url('../fonts/OvWoo.svg#OvWoo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/**
+ * Styling begins
+ */
+#adminmenu #toplevel_page_ovisto_settings .menu-icon-generic div.wp-menu-image:before {
+    font-family: 'OvWoo' !important;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\0043";
+}
